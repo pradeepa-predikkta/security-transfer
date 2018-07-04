@@ -1,0 +1,177 @@
+/*
+	Theme Name: security transfer
+	Theme URI: http://www.montserrat.ninzio.com
+	Description: Predikkta Multipurpose Responsive Retina-Ready WordPress Premium Theme
+	Author: Predikkta
+	Author URI: http://www.ninzio.com
+	Template:montserrat
+	Version: 2.4.9
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.clear{ clear: both;}
+/* header */
+.logo.logo-desk img { width: 164px !important;}
+.fixed-logo { top: 70px;}
+.header-menu.desk-menu.nz-clearfix{ float: left !important;}
+.site-sidebar-toggle, .search-toggle-wrap { margin-top: 0 !important;}
+.nz-bar .header-top-label { float: left; padding-right: 10px;}
+header .nz-bar { width: 34%; float: right; padding-top: 20px;}
+.logo.logo-desk img { padding-left: 20px; width: 200px !important;}
+header .nz-bar img { width: 36px; margin-top: 7px;}
+header a { color: #fff !important;}
+.header-top { width: 100%; float: left;}
+.header-right2 { width: 42%; float: right;}
+.header-right1 { float: left; width: 58%;}
+.ninzio-latter-spacing { margin-top: 8px; letter-spacing:0 !important; font-weight: 900 !important;}
+.get-started .vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-modern.vc_btn3-block.vc_btn3-color-danger {  width: 204px; color: #fff !important; font-weight: bold; margin: 0 auto; margin-top: 21px; background: #e6413e !important;}
+.vc_btn3-container.get-started.vc_btn3-center { margin: 0 auto;}
+.nz-accordion .toggle-title{ color: #0a506d; }
+/* nav */
+nav ul li a { margin-top: 0 !important;}
+nav ul li{ height: auto !important;}
+.header-top{ background: #0a506d !important;}
+.version1 .desk-menu > ul > li > a { color: #fff; text-transform: capitalize; font-weight: 600; font-size: 14px; font-family: Montserrat; margin-top: 30px;}
+.version1 .desk-menu > ul::after { display: none;}
+nav li a { padding: 5px 3px !important;}
+nav ul li a span{ padding: 21px 0; display: block;}
+.desk-menu > ul > li > a, .header-top > .container{ height: auto; position: inherit; line-height:0;}
+.effect-underline .desk-menu > ul > li > a::after, .effect-overline .desk-menu > ul > li > a::after { bottom: 10px;}
+/* Box data */
+#nz-box-1, #nz-box-2, #nz-box-3, #nz-box-4, #nz-box-5, #nz-box-6{ position: relative; min-height: 225px;}
+#nz-box-1 .box-icon-wrap, #nz-box-2  .box-icon-wrap, #nz-box-3  .box-icon-wrap , #nz-box-4  .box-icon-wrap, #nz-box-5  .box-icon-wrap,#nz-box-6  .box-icon-wrap { display: none;}
+.box-data { position: relative;}
+.box-title { position: absolute; top: 92px; color: #0a506d !important; font-weight: 800; font-size: 17px !important; text-transform: capitalize; text-align: center;
+padding-left: 0 !important;}
+.shareholderservices .box-data img { position: absolute; top: 0; width: 65px; left: 151px;}
+.nz-content-box .box-title::after{ display: none;}
+.shareholderservices .box-data p { position: absolute; top: 132px; text-align: center;}
+.custom-padding-on-mobile .col-inner { padding-left: 50px !important; padding-right: 50px !important; padding-top: 50px !important; padding-bottom: 50px !important;}
+/* security holder */
+.share-holder-heading { font-weight: 501 !important;}
+/* merging people */
+.merging-peoplecontent{ width: 66%; margin: 0 auto;}
+.merging-prople{ font-weight: 600; text-transform: uppercase; font-size: 13px !important; letter-spacing: 2px;}
+/* investers */
+.investors-image img { height: 510px !important;}
+.home-investors ul li, .home-ourbusiness ul li { text-align: left; list-style: none; padding-bottom: 22px;}
+.home-investors ul li a, .home-ourbusiness ul li a{ color: #fff !important; font-weight: 600;font-size: 17px; padding: 0 15px 6px 44px; display: block;}
+.contact-a-company a { background: url(/wp-content/uploads/2018/06/contact-a-company.png) no-repeat 0px 5px; background-size: 8%; }
+.st-download-forms a{ background: url(/wp-content/uploads/2018/06/download-form.png) no-repeat -5px 0px;  background-size: 10%; }
+.security-meeting a{ background: url(/wp-content/uploads/2018/06/security_transfer-meetings.png) no-repeat 0px -1px;background-size:9%;}
+.printing-and-mailing-services a{ background: url(/wp-content/uploads/2018/06/printing-and-mailing-services.png) no-repeat 0px 0px;background-size: 25px;}
+.supporting-community a{ background: url(/wp-content/uploads/2018/06/supporting-our-community.png) no-repeat 0px 0px;background-size: 29px;}
+.st-contactus a{ background: url(/wp-content/uploads/2018/06/security_transfer-contact-us.png) no-repeat 0px 0px;background-size: 24px;}
+.home-investors ul{ margin-top: 16px; display: block; float: left; }
+.home-ourbusiness ul li { padding-bottom: 27.3px;}   
+.home-ourbusines, .investers-ourbusiness .col.vc_col-sm-6.col6.element-animate-false.valign-top, .investers-ourbusiness .wpb_single_image.wpb_content_element.vc_align_center{ margin-bottom: 0;}
+.investers-ourbusiness .col.vc_col-sm-6.col6.element-animate-false.valign-top{ padding-right:0px !important;}
+.home-ourbusiness { margin-bottom: 0 !important;}
+.home-readmore button { border: none !important; padding-left: 0 !important; color: #0a506d !important; font-weight: 500 !important;} 
+.market-news img { width: 90px; float: left;}
+.market-news { width: 46%; float: left; margin-right: 22px; margin-bottom: 25px;}
+.market-news-post1 p, .market-news-post2 p, .market-news-post3 p, .market-news-post4 p { padding-left: 103px;}
+.market-news h2 { color: #0a506d; text-transform: uppercase; font-size: 14px; padding-left: 100px; display: block; line-height: 21px;}
+.market-news h2 { font-size: 14px; padding-left: 102px !important; display: block; line-height: 20px; font-weight: 600;}
+.market-news { width: 46%; float: left; margin-right: 22px; background: #fff;  margin-bottom: 18px; min-height: 88px; padding:1px 0 0 1px !important;}
+footer, .footer-wa{ background: #0a506d !important;}
+.meblourne-address, .perth-office, .sydney-office { float: left; width: 30%; color: #fff !important; line-height: 32px; font-weight: 500;}
+.perth-office { border-left: 1px solid #fff; padding-left: 5%; border-right: 1px solid #fff; margin-right: 8%;}
+.meblourne-address span, .perth-office span, .sydney-office span , .postal-address span{ font-weight: 600;}
+footer h6, .postal-address span { font-weight: 600;}
+.footer-widget-area > .widget::after, .footer-widget-area > .yawp_wim_widget::after{ background-color: none !important;}
+.footer-widget-area > .widget::after, .footer-widget-area > .yawp_wim_widget::after {  background: none;}
+footer #custom_html-3 {  width: 91%;}
+.postal-address span { margin-bottom: 10px; display: block;}
+.postal-address  { color: #fff;}
+.footer-right ul{ margin-top:0 !important;}
+.footer-right ul li { float: left; color: #0a506d; list-style: none; padding: 0;}
+.footer-copyright{ float: none;}
+.footer-right li a { color: #0a506d; text-transform: uppercase; padding: 0 15px;}
+.footer-right{ float: right;}
+.footer-info-area { background-color: #fff; min-height: 64px;}
+.nz-bar a { color: #0a506d !important;}
+.site-sidebar-toggle { display: none;}
+.search-toggle-wrap{ color: #fff !important;}
+/* mobile menu */
+.mob-header-content li a { color: #000 !important;}
+.mob-header-content header .nz-bar { width: 54%; float: none; padding-top: 20px;}
+.mob-header-content .header-right2, .mob-header-content .header-right1{ float: none; width: auto;}
+.mob-header-content .header-right2{ margin-top: 10px;}
+.mob-header-content.nz-clearfix .nz-bar { width: 100%;}
+.mob-header-content.nz-clearfix .header-right2{ width: auto;}
+.mob-header-content.nz-clearfix .social-links, .mob-header-content.nz-clearfix .cart-toggle{ display: none;}
+/* services page */
+.services-top-page .tab.active { display: none;}
+.services-bottom-section h3 { position: inherit; top: 0px !important;}
+/* contact page */
+.contact-address #tab-melbourne-office, .contact-address #tab-perth-office, .contact-address #tab-sydney-office { padding-top: 40px;}
+.contact-address #tab-melbourne-office iframc, .contact-address #tab-perth-office iframe, .contact-address #tab-sydney-office iframe{ padding-top: 40px;}
+/* about us */
+.aboutus-left-image{ float: right; width: 46%; padding: 60px 0 60px 26px;}
+.aboutus-right-image{ float: left; width: 53%;}
+/* sidebar */
+#sidebar-widget #custom_html-10, #sidebar-widget #custom_html-11, #sidebar-widget #custom_html-12, #sidebar-widget #custom_html-13 { width: 31%; float: left;  padding: 25px; min-height: 369px; background-size: 100%; background-repeat: no-repeat; background-position: 0px 0px; padding: 41px 26px; height: 441px; margin-left: 2%;}
+#sidebar-widget .widget-title { background: #0a506d; opacity: 0.9; padding: 2% 10px 2% 9%; margin-bottom: 0; font-weight: 800; color: #fff;}
+#sidebar-widget .textwidget.custom-html-widget { background: #fff; opacity: 0.9; padding: 3% 0 10px 10%; min-height: 308px;}
+#sidebar-widget #custom_html-10{ background-image: url(/wp-content/uploads/2018/07/melbourne-office-security-transfer.png); }
+#sidebar-widget #custom_html-11{ background-image: url(/wp-content/uploads/2018/07/melbourne-office-in-secturity-transfer.png); }
+#sidebar-widget #custom_html-12{ background-image: url(/wp-content/uploads/2018/07/sydney-office-interiorsecturity-transfer.png); }
+#sidebar-widget #custom_html-13{ background-image: url(/wp-content/uploads/2018/07/melbourne-view-in-secturity-transfer.png); }
+#custom_html-11 .textwidget h3 { padding-left: 0 !important; padding-top: 12px; background: none; color: #0a506d; }
+#sidebar-widget li a{ color: #000 !important;}
+@media screen and (max-width: 1808px){
+.investors-image img { min-height: 510px;}
+.home-investors ul li a, .home-ourbusiness ul li a{ font-size: 15px;}
+}
+@media screen and (max-width: 1800px){
+}
+@media screen and (max-width: 1480px){
+.home-ourbusiness .col-inner, .home-investors .col-inner { padding: 113px 0 !important;}
+}
+@media screen and (max-width: 1160px){
+.investers-ourbusiness .vc_col-sm-6.col6 { display: none;}
+.home-investors, .home-ourbusiness { width: 50% !important; float: left;}
+.home-ourbusiness .col-inner, .home-investors .col-inner { padding: 113px 50px !important;}
+}
+@media screen and (max-width: 1098px){
+.shareholderservices .box-data img{ left: 115px;}
+}
+@media screen and (max-width: 1025px){
+	.market-news{ width: 100%;}
+}
+@media screen and (max-width: 1023px){
+.shareholderservices .box-data img { left: 75px;}
+}
+@media screen and (max-width: 800px){
+footer #custom_html-3 { width: 91%; float: left;}
+}
+@media screen and (max-width: 767px){
+#custom_html-4{ clear: both;}
+.shareholderservices .box-data img { left: 183px;}
+.merging-peoplecontent{ width: auto;}
+}
+@media screen and (max-width: 740px){
+.home-investors, .home-ourbusiness {  width: 100% !important;}
+.home-ourbusiness li a, .home-investors li a { background-size: 27px;}
+.home-ourbusiness .col-inner, .home-investors .col-inner { padding: 36px 50px !important;}
+#rev_slider_1_1 .tp-caption { padding: 0 14px !important; font-size: 21px !important;}
+}
+@media screen and (max-width: 500px){
+.meblourne-address, .perth-office, .sydney-office{ width: 250px; margin: 0 auto;}
+.perth-office { border-left: none; padding-left: 0; border-right: none; margin-right: 0;}
+aside.footer-widget-area.widget-area.nz-clearfix { width: 200px; margin: 0 auto;}
+.market-news{ float: none; width: 262px;}
+footer #custom_html-3{ float: none;}
+}
+@media screen and (max-width: 480px){
+#rev_slider_1_1 .tp-caption { padding: 0 24px !important;}
+.shareholderservices .box-data img { left: 112px;}
+.footer-right { float: right; width: 80%; margin-top: 10px;}
+.home-ourbusiness h2{ font-size: 30px;}
+}
+@media screen and (max-width: 300px){
+.shareholderservices .box-data img { left: 99px;}
+}
