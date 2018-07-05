@@ -123,7 +123,11 @@ footer #custom_html-3 {  width: 91%;}
 #custom_html-11 .textwidget h3 { padding-left: 0 !important; padding-top: 12px; background: none; color: #0a506d; }
 #sidebar-widget li a{ color: #000 !important;}
 /* client information */
-.client-contact { width: 31%; float: left; margin-right: 10px;}
+.client-contact h2 { font-size: 15px; color: #0a506d; font-weight: 900;}
+.client-contact { width: 24%; float: left; min-height: 378px; background: #ccc; padding: 15px; margin: 0 10px 10px 0; text-transform: lowercase;}
+.company-information-details .nz-steps:not(.step-full) .stepset .step::after { display: block; position: absolute; top: 35px; width: 40px; height: 1px; content: ""; right: -20px; background-color: #000;}
+.company-information-details .stepset.nz-clearfix .step h4 { background: red; padding: 5px 10px; border-radius: 11px 13px 13px 12px; color: #fff !important; font-weight: bold;}
+.company-information-details .step { padding: 19px !important;}
 @media screen and (max-width: 1808px){
 .investors-image img { min-height: 510px;}
 .home-investors ul li a, .home-ourbusiness ul li a{ font-size: 15px;}
